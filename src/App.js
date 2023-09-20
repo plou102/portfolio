@@ -1,7 +1,8 @@
 import './App.css';
+import Info from 'components/Info';
 
 function App() {
-  return <div className="App"></div>;
+  return <Info></Info>;
 }
 
 export default App;
