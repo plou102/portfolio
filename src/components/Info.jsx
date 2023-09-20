@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { LuMouse, LuArrowDown } from 'react-icons/lu';
 
 const Info = () => {
   return (
@@ -38,6 +39,11 @@ const Info = () => {
           적용하고자 합니다.
         </div>
       </Introduction>
+
+      <DownBtn>
+        <LuMouse size="50" />
+        <LuArrowDown size="40" className="arrow" />
+      </DownBtn>
     </InfoContent>
   );
 };
@@ -106,4 +112,25 @@ const Introduction = styled.div`
   gap: 10px;
   font-size: 1.7rem;
   padding-left: 30vh;
+  margin-bottom: 20vh;
+`;
+
+const DownBtn = styled.div`
+  width: 50px;
+  margin: auto;
+  position: relative;
+
+  &:hover {
+    .arrow {
+      transform: translateY(15px);
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    width: 50px;
+    top: 28px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
 `;
