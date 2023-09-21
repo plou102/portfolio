@@ -4,6 +4,7 @@ import Info from 'components/Info';
 import { useRef } from 'react';
 import { DataProvider } from 'context/DataContext';
 import Skills from 'components/Skills';
+import Education from 'components/Education';
 
 function App() {
   const projectRef = useRef(null);
@@ -18,6 +19,7 @@ function App() {
         <Info event={ClickMove} />
         <Projects ref={projectRef} />
         <Skills />
+        <Education />
       </DataProvider>
     </>
   );
