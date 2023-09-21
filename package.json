@@ -1,5 +1,5 @@
 {
-  "homepage": "https://plou102.github.io/portfolio",
+  "homepage": "https://plou102.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,7 @@
     "format": "prettier --cache --write .",
     "lint": "eslint --cache",
     "prepare": "husky install",
-    "predeploy": "npm run build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
