@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Title = () => {
+const Title = ({ title }) => {
   return (
     <Header>
       <Line />
-      <p>Projects</p>
+      <p>{title}</p>
     </Header>
   );
 };

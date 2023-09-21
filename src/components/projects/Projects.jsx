@@ -7,10 +7,10 @@ const Projects = forwardRef((props, ref) => {
   const { data } = useContext(DataContext);
   return (
     <div ref={ref}>
-      <Title />
+      <Title title="Projects" />
 
       {data.map((item, idx) => {
-        return <Project item={item} idx={idx} />;
+        return <Project item={item} idx={idx} key={idx + 1} />;
       })}
     </div>
   );

@@ -28,19 +28,21 @@ const Project = ({ item, idx }) => {
 
       <Detail>
         <Summary>{item.summary}</Summary>
-        {item.stack.map(item => {
-          return <Stack>{item}</Stack>;
+        {item.stack.map((item, index) => {
+          return <Stack key={index}>{item}</Stack>;
         })}
 
         <ul>
-          {item.detail.map(item => {
-            return <li>{item}</li>;
+          {item.detail.map((item, index) => {
+            return <li key={index}>{item}</li>;
           })}
         </ul>
 
         {images[idx]?.map((item, index) => {
           if (index < 5) {
-            return <Img key={idx} onClick={() => setIsModal(true)} src={item} alt="market image" />;
+            return (
+              <Img key={index} onClick={() => setIsModal(true)} src={item} alt="market image" />
+            );
           }
         })}
       </Detail>
