@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { LuMouse, LuArrowDown } from 'react-icons/lu';
 
-const Info = () => {
+const Info = ({ event }) => {
   return (
     <InfoContent>
       <AboutMe>
@@ -40,7 +40,7 @@ const Info = () => {
         </div>
       </Introduction>
 
-      <DownBtn>
+      <DownBtn onClick={() => event()}>
         <LuMouse size="50" />
         <LuArrowDown size="40" className="arrow" />
       </DownBtn>
