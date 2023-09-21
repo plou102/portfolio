@@ -63,6 +63,7 @@ const BackContent = styled.div`
   padding: 15px;
   width: 30px;
   margin-left: 95%;
+  cursor: pointer;
 
   svg {
     transition: all 0.3s ease-in-out;
@@ -82,6 +83,7 @@ const Viewer = styled.div`
 const Prev = styled.div`
   margin: auto;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
   &:hover {
     transform: translateX(-20px);
   }
@@ -90,6 +92,7 @@ const Prev = styled.div`
 const Next = styled.div`
   margin: auto;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
   &:hover {
     transform: translateX(20px);
   }

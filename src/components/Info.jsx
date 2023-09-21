@@ -99,6 +99,7 @@ const Contact = styled.div`
 
   p {
     display: inline;
+    cursor: pointer;
 
     &:hover {
       text-decoration: underline;
@@ -119,6 +120,7 @@ const DownBtn = styled.div`
   width: 50px;
   margin: auto;
   position: relative;
+  cursor: pointer;
 
   &:hover {
     .arrow {

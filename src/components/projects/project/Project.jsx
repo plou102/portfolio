@@ -18,12 +18,18 @@ const Project = ({ item, idx }) => {
         <p>
           팀원 <b>{item.member}</b>
         </p>
-        <LinkText onClick={() => window.open(`${item.githubURL}`)}>
-          <FaGithub size="20" /> GitHub
-        </LinkText>
-        <LinkText onClick={() => window.open(`${item.webURL}`)}>
-          <FiMonitor size="20" /> WebURL
-        </LinkText>
+
+        {item.githubURL && (
+          <LinkText onClick={() => item.githubURL && window.open(`${item.githubURL}`)}>
+            <FaGithub size="20" /> GitHub
+          </LinkText>
+        )}
+
+        {item.webURL && (
+          <LinkText onClick={() => item.webURL && window.open(`${item.webURL}`)}>
+            <FiMonitor size="20" /> WebURL
+          </LinkText>
+        )}
       </Simple>
 
       <Detail>
@@ -86,6 +92,7 @@ const Detail = styled.div`
 
 const LinkText = styled.p`
   margin: 5px 0;
+  cursor: pointer;
   &:hover {
     text-decoration: underline;
   }
@@ -111,4 +118,5 @@ const Img = styled.img`
   width: 15vh;
   height: 10vh;
   margin-right: 1vh;
+  cursor: pointer;
 `;
