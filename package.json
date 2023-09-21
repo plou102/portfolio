@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "postinstall": "husky install",
     "format": "prettier --cache --write .",
-    "lint": "eslint --cache --fix .",
+    "lint": "eslint --cache",
     "prepare": "husky install",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
