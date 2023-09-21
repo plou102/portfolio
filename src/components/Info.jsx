@@ -59,7 +59,7 @@ const AboutMe = styled.div`
   display: flex;
   margin-bottom: 10vh;
   gap: 20vh;
-  padding: 30vh 0 0 30vh;
+  padding: 20vh 0 0 25vh;
 `;
 
 const Name = styled.div`
@@ -112,7 +112,7 @@ const Introduction = styled.div`
   flex-direction: column;
   gap: 10px;
   font-size: 1.7rem;
-  padding-left: 30vh;
+  padding-left: 25vh;
   margin-bottom: 20vh;
 `;
 

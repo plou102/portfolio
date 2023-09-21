@@ -70,7 +70,7 @@ const MainContent = styled.div`
 `;
 
 const Simple = styled.div`
-  width: 30vh;
+  width: 35vh;
   p {
     margin: 10px 0;
     font-size: 1.1rem;
@@ -78,7 +78,7 @@ const Simple = styled.div`
 `;
 
 const Detail = styled.div`
-  width: 80vh;
+  width: 85vh;
   ul {
     padding-left: 20px;
     margin-bottom: 5vh;
