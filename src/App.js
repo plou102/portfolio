@@ -2,6 +2,7 @@ import Projects from 'components/projects/Projects';
 import './App.css';
 import Info from 'components/Info';
 import { useRef } from 'react';
+import { DataProvider } from 'context/DataContext';
 
 function App() {
   const projectRef = useRef(null);
@@ -12,8 +13,10 @@ function App() {
 
   return (
     <>
-      <Info event={ClickMove} />
-      <Projects ref={projectRef} />
+      <DataProvider>
+        <Info event={ClickMove} />
+        <Projects ref={projectRef} />
+      </DataProvider>
     </>
   );
 }

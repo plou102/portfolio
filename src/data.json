@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Go-Together",
+    "date": "2023. 03 ~ 2023. 04",
+    "member": "FE 3명, BE 3명, UI/UX 3명",
+    "githubURL": "https://github.com/fastcampus-final/go-together-fe",
+    "webURL": null,
+    "summary": "시니어 패키지 여행 서비스인 고투게더 플랫폼 리뉴얼 프로젝트",
+    "stack": ["Next.js", "TypeScript", "Emotion", "Redux Toolkit"],
+    "detail": [
+      "Cookie의 유무를 파악하여 메인 페이지의 구성이 다르게 구현되어 있으며 회원의 경우 추천 여행지를 볼 수 있도록 구현",
+      "카카오 맵 API를 사용하여 기업의 위치가 보여지도록 구현",
+      "react-select 라이브러리를 이용하여 패키지 상품의 출발일을 선택할 수 있도록 구현",
+      "react-share와 react-copy-to-clipboard를 이용하여 다른 사람에게 해당 페키지의 URL을 공유할 수 있도록 구현",
+      "dayjs를 이용하여 사용자가 예정된 여행이 몇일 남아 있는지 보여지도록 구현",
+      "mui를 통해 관리자 페이지의 디자인이 통일되도록 구현",
+      "React-Quill과 Toast UI를 이용하여 에디터를 구현하려 하였으나 버전과 이미지 업로드 관련 이슈로 인해 react-draft-wysiwyg를 사용하여 에디터 구현"
+    ],
+    "image": [
+      "/images/goTogether/main.gif",
+      "/images/goTogether/main-mobile.gif",
+      "/images/goTogether/productdetail.gif",
+      "/images/goTogether/editor.gif",
+      "/images/goTogether/editormobile.gif",
+      "/images/goTogether/notice.png",
+      "/images/goTogether/order-list-mobile.png",
+      "/images/goTogether/order-detail.png",
+      "/images/goTogether/order-detail-mobile.png",
+      "/images/goTogether/review-master.png",
+      "/images/goTogether/banner-list.png",
+      "/images/goTogether/banner.png"
+    ]
+  },
+  {
+    "title": "Lonsily",
+    "date": "2023. 02",
+    "member": "FE 4명, BE 4명",
+    "githubURL": "https://github.com/KDT3-miniproject-team1/frontend",
+    "webURL": "https://github.com/plou102/Lonsily/wiki/시연-영상",
+    "summary": "대출상품 추천 서비스",
+    "stack": ["React", "TypeScript", "Styled-Components", "Redux", "React-Query"],
+    "detail": [
+      "사용자의 편의성을 생각하여 메인 페이지에서도 헤더를 통해 검색 가능하도록 구현",
+      "LocalStorage의 토큰 유무를 파악하여 네비게이션의 종류와 메인 페이지 UI의 종류가 다르도록 구현",
+      "상품의 이름을 검색하여 원하는 상품을 볼 수 있도록 구현",
+      "useState를 통해 페이지의 상태를 관리하고 API통신을 통해 받은 데이터의 길이와 임의로 정한 limit로 페이지네이션 구현",
+      "검색 데이터를 sort로 정렬하여 상품 이름과 은행 이름순으로 정렬이 가능하도록 구현"
+    ],
+    "image": [
+      "/images/lonsily/header.png",
+      "/images/lonsily/header2.png",
+      "/images/lonsily/main.png",
+      "/images/lonsily/main2.png",
+      "/images/lonsily/nav.png",
+      "/images/lonsily/nav2.png",
+      "/images/lonsily/search.png",
+      "/images/lonsily/page.png"
+    ]
+  },
+  {
+    "title": "마켓멍냥",
+    "date": "2022. 11 ~ 2022. 12",
+    "member": "FE 5명",
+    "githubURL": "https://github.com/Front-end-Components/market-mong-nyang",
+    "webURL": "https://market-mong-nyang.netlify.app/",
+    "summary": "React.js와 REST API를 활용한 반려동물 용품 쇼핑몰",
+    "stack": ["React", "JavaScript", "SCSS", "Redux"],
+    "detail": [
+      "react-comfirm-alert을 사용하여 Alert, Confirm 용도의 모달창 구현",
+      "useState를 통해 상품에 대한 주문 상태를 사용자가 바로 볼 수 있도록 구현",
+      "date-picker를 사용하여 주문 날짜를 통해 필터링할 수 있도록 구현",
+      "결제 전 주문서 페이지에서 주문 상품과 결제 수단을 Swiper로 구현하여 스크롤 하지 않고 볼 수 있도록 구현"
+    ],
+    "image": [
+      "/images/market/alert.png",
+      "/images/market/Confirm.png",
+      "/images/market/order.png",
+      "/images/market/orderdetail.png",
+      "/images/market/payment.png",
+      "/images/market/payment2.png"
+    ]
+  }
+]
