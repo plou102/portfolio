@@ -1,5 +1,4 @@
 import Projects from 'components/projects/Projects';
-import './App.css';
 import Info from 'components/Info';
 import { useRef } from 'react';
 import { DataProvider } from 'context/DataContext';

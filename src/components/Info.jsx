@@ -112,7 +112,7 @@ const Introduction = styled.div`
   flex-direction: column;
   gap: 10px;
   font-size: 1.7rem;
-  padding-left: 25vh;
+  padding-left: 10%;
   margin-bottom: 20vh;
 `;
 

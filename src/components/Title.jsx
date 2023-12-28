@@ -4,8 +4,8 @@ import styled from 'styled-components';
 const Title = ({ title }) => {
   return (
     <Header>
-      <Line />
       <p>{title}</p>
+      <Line />
     </Header>
   );
 };
@@ -21,8 +21,9 @@ const Header = styled.div`
     display: inline;
     background-color: #fff;
     padding: 0 10px;
+    margin: 0;
     position: absolute;
-    top: 10px;
+    bottom: -3vh;
     left: 6rem;
   }
 `;
@@ -30,6 +31,6 @@ const Header = styled.div`
 const Line = styled.div`
   width: 100%;
   border-bottom: 3px solid #333;
-  padding-top: 10vh;
-  margin-bottom: 20vh;
+  height: 10vh;
+  margin-bottom: 15vh;
 `;
