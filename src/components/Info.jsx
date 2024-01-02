@@ -18,7 +18,8 @@ const Info = ({ event }) => {
               <a href="mailto:plou102@naver.com">plou102@naver.com</a>
             </li>
             <li>
-              <span>Mobile</span>010-9049-3594
+              <span>Mobile</span>
+              <a href="tel:010-9049-3594">010-9049-3594</a>
             </li>
             <li>
               <span>GitHub</span>
