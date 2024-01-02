@@ -14,7 +14,8 @@ const Info = ({ event }) => {
         <Contact>
           <ul>
             <li>
-              <span>Email</span>plou102@naver.com
+              <span>Email</span>
+              <a href="mailto:plou102@naver.com">plou102@naver.com</a>
             </li>
             <li>
               <span>Mobile</span>010-9049-3594
@@ -97,9 +98,12 @@ const Contact = styled.div`
     width: 80px;
   }
 
-  p {
+  p,
+  a {
     display: inline;
     cursor: pointer;
+    text-decoration: none;
+    color: #333;
 
     &:hover {
       text-decoration: underline;
