@@ -18,6 +18,9 @@ const Project = ({ item, idx }) => {
         <p>
           팀원 <b>{item.member}</b>
         </p>
+        <p>
+          참여도 <b>{item.participation}</b>
+        </p>
 
         {item.githubURL && (
           <LinkText onClick={() => item.githubURL && window.open(`${item.githubURL}`)}>
